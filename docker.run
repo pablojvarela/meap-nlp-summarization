@@ -1,0 +1,3 @@
+#!/bin/zsh
+# Instructions from https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html
+sudo docker run -p 8888:8888 -w /home/pablo/meap -v /home/pablo/Projects/meap:/home/pablo/meap jupyter/tensorflow-notebook
